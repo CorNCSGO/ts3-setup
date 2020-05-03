@@ -123,7 +123,7 @@ sleep 5
 # finish
 EXTERNAL_IP=$(wget -qO - http://geoip.ubuntu.com/lookup | sed -n -e 's/.*<Ip>\(.*\)<\/Ip>.*/\1/p')
 IMPORTANT=$(cat "$TS3_DIR"/logs/*_1.log | grep -P -o "token=[a-zA-z0-9+]+")
-echo "$IMPORTANT" > "$TS3_DIR"/ServerAdmin_Privilege_Key.txt # save the ServerAdmin Privilege Key for easy future reference
+echo "$IMPORTANT" > "$TS3_DIR"/Key.txt # save the ServerAdmin Privilege Key for easy future reference
 echo -e "\nServerAdmin info saved to: '$TS3_DIR/ServerAdmin_Privilege_Key.txt'"
 echo -e "ServerAdmin Privilege Key: $IMPORTANT\n"
 echo -e "Completed! You should probably configure the server now\nUse the desktop client for easy administration\n"
