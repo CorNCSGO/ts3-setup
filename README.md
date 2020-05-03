@@ -1,5 +1,9 @@
 
 ## Auto Install the Linux TeamSpeak 3 Server on Debian / Ubuntu
+## To get admin key connect to server SSH and run
+```bash
+nano /opt/ts3server/ServerAdmin_Privilege_Key.txt
+```
 ### What this script does:
 - Creates a new user to run the TeamSpeak 3 Server
 - Downloads and installs the server
