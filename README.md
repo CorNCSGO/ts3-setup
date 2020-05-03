@@ -33,3 +33,13 @@ sudo systemctl {start|stop|restart|status} ts3server
 ```
 
 ## All Credits go to /rcguy
+## For Vultr Users, Create a script and paste this in it.
+```bash
+wget https://raw.githubusercontent.com/CorNCSGO/ts3-setup/master/install_ts3-server.sh
+chmod a+x install_ts3-server.sh
+sudo ./install_ts3-server.sh
+```
+# Then get admin key by connecting to server SSH & Running this
+```bash
+nano /opt/ts3server/ServerAdmin_Privilege_Key.txt
+```
