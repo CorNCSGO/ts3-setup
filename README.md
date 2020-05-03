@@ -9,7 +9,7 @@ nano /opt/ts3server/ServerAdmin_Privilege_Key.txt
 - Downloads and installs the server
 - Creates a systemd service
 - Starts the server
-### For Vultr Users, Create a script and paste this in it.
+### For Vultr Users, Create a script and paste this.
 ```bash
 wget https://raw.githubusercontent.com/CorNCSGO/ts3-setup/master/install_ts3-server.sh
 chmod a+x install_ts3-server.sh
