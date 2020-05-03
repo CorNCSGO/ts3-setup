@@ -19,4 +19,4 @@ sudo ./install_ts3-server.sh
 ```bash
 nano /opt/ts3server/ServerAdmin_Privilege_Key.txt
 ```
-### All Credits go to [github.com/rcguy]
+### [All Credits go to ](https://github.com/rcguy)
